@@ -1,0 +1,1 @@
+Honesltly I jsut do this to create a Streakn Github but i genuinely want to learn writing README.md because it is really important in terms of Software Engineer or a Good Programmer Overall 
