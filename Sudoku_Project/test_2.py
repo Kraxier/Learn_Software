@@ -1,3 +1,4 @@
+
 # hori_block_2
 # The Side of the hori_block_1
 '''
@@ -14,7 +15,7 @@ print(hori_block_1)
 
 import random 
 hori_block_1 = [1,2,3,4,5,6,7,8,9]
-print(hori_block_1[0:3]) # this is how i can access the first 3 Lines 
+# print(hori_block_1[0:3]) # this is how i can access the first 3 Lines 
 
 
 
@@ -40,4 +41,23 @@ list_relative_horizontal = hori_block_1[0:3]
 possible_num = []
 
 '''I should print the Possible Num to reduce the random.randint Choices that depends on the line man'''
+
+# Generating a Number in Relative to Sudoku_num
+'''
+list
+0:3 
+3:6 
+6:9 
+'''
+list_relative_horizontal_2 = hori_block_1[0:3]
+random_num = random.choice(list_relative_horizontal_2)
+# print(random_num)
+
+
+
+
+
+'''
+This is Thinking Wrong maybe 
+'''
 
